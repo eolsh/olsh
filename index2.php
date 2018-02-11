@@ -11,26 +11,8 @@
   </head>
   <body>
 
-
-  <div class="header row">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x">
-        <div class="large-12 cell">
-          
-          <div class="menu-top">
-            <ul class="menu align-right" data-magellan>
-              <li><a href="index.html#02">О фильме</a></li>
-              <li><a href="index.html#01">Куда течет море</a></li>
-              <li><a href="index.html#03">Виталий Салтыков</a></li>
-              <li><a href="people.html">Команда</a></li>
-              <li><a href="index.html#04">Контакты</a></li>
-            </ul>
-          </div>
-         
-        </div>
-      </div>
-    </div>
-  </div>
+  <?php include ("_top-bar.htm"); ?>
+  
   <!-- <div class="top row">
     <div class="grid-container">
       <div class="grid-x grid-padding-x">
@@ -48,49 +30,13 @@
   </div> -->
 
   
-  <div class="block1 row" id="01">
+  
+
+  <div class="block2 row" id="02" style="background-color:#f2e8c9">
     <div class="grid-container">
       <div class="grid-x grid-padding-x clearfix">
         <div class="large-12 cell">
-          <h1>Куда течет море</h1>
-          <p>В 2011-2012 году студией «Эквилибриум» был снят короткометражный фильм «Куда течёт море» («Where does the sea flow»).</p>
-          <div class="video">
-            <iframe width="100%" height="600px" src="https://www.youtube.com/embed/THbx1wmnaDY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-          <p>У фильма замечательная фестивальная история. Мы побывали на различных интереснейших кинофорумах Европы, Америки и России. Благодаря попаданию в финал одного из самых престижных кинофестивалей в мире «Манхеттен Шорт», наш фильм посмотрели более 200 тысяч человек.</p>
-          <h3>В главных ролях:</h3>
-          <ul>
-            <li>Оксана Акиньшина</li>
-            <li>Катя Семиренко</li>
-            <li>Иван Краско</li>
-          </ul>
-          <h3>Фестивали:</h3>
-          <ul>
-            <li>“Sedicicorto international film festival”, г.Форли (Италия), октябрь, 2012 — 1 премия , лучший фильм в категории “MOVIE» (количество участников 4 000)</li>
-            <li>The Manhattan Short Film Festival,  Нью-Йорк (США), октябрь, 2012– впервые  за 16 лет существования фестиваля русский фильм вошел в десятку финалистов.</li>
-            <li>Итоговое место 7 по мировому голосованию. (количество участников – 800,  “Манхеттен шорт” — самый крупный в мире фестиваль короткометражного кино)</li>
-            <li>Международный кинофестиваль в г. Клермон Ферран (Франция) декабрь 2011</li>
-            <li>Международный Каннский фестиваль, Канн (Франция) , май 2012</li>
-            <li>«Зеркало» фестиваль им. Тарковского, г. Иваново, (Россия), июнь 2012</li>
-            <li>«East End Film Festival» , Лондон (Англия) июль 2012</li>
-            <li>«In the palace»,  г. Балчик (Болгария), июль 2012</li>
-            <li>«Cottbus Fest», г. Котбусс (Германия), ноябрь 2012</li>
-            
-          </ul>
-          <div class="festivals">
-            <img src="img/festivals.jpg">
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="block2 row" id="02">
-    <div class="grid-container">
-      <div class="grid-x grid-padding-x clearfix">
-        <div class="large-12 cell">
-          <h1>Картинки, нарисованные в  часы заката и рассвета</h1>
+          <h1 style="font-family:Roboto; font-size:33pt; text-transform:uppercase;">Картинки, нарисованные в  часы заката и рассвета</h1>
           
           <div class="video">
             <iframe width="100%" height="600px" src="https://www.youtube.com/embed/hHhvFDnVI5M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -122,11 +68,11 @@
     </div>
   </div>
 
-  <div class="block1 row" id="03">
+  <div class="block1 row" id="03" style="background-color:#f2f3f2">
     <div class="grid-container">
       <div class="grid-x grid-padding-x clearfix">
         <div class="large-12 cell">
-          <h1>Виталий Салтыков</h1>
+          <h1 style="font-family:opensans; text-transform:uppercase;">Виталий Салтыков</h1>
           <!-- <div class="grid-x grid-padding-x">
             <div class="cell large-4">12/6/4 cells</div>
             <div class="cell large-8">12/6/8 cells</div>
@@ -161,30 +107,7 @@
     </div>
   </div>
 
-  <div class="footer row" id="04">
-    <div class="grid-container ">
-      
-        
-          <div class="grid-x grid-padding-x">
-            <div class="cell large-4">
-              <img src="img/phone.png">
-              <span>+7-911-957-33-79</span>
-            </div>
-            <div class="cell large-4">
-              <img src="img/mail.png">
-              <span>eq.agency@gmail.com</span>
-            </div>
-            <div class="cell large-4">
-              <img src="img/youtube.png">
-              <span>www.youtube.com/user/eqspb/</span>
-            </div>
-          </div>
-          
-
-       
-     
-    </div>
-  </div>
+  <?php include ("_footer.htm"); ?>
 
 
     <script src="js/vendor/jquery.js"></script>

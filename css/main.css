@@ -6,6 +6,13 @@
 }
 
 @font-face{
+	font-family: 'AmaticSC';
+	src: url('../fonts/AmaticSC-Bold.ttf');
+}
+
+
+
+@font-face{
 	font-family: 'Caveat-regular';
 	src: url('../fonts/Caveat-Regular.ttf');
 }
@@ -18,6 +25,16 @@
 @font-face{
 	font-family: 'PoiretOne';
 	src: url('../fonts/PoiretOne-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Roboto';
+	src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSansCondensed-Bold.ttf');
 }
 
 p, li{
@@ -33,8 +50,8 @@ h3{
 
 h1{
 	border-bottom: 2px solid #53435b;
-	font-family: PoiretOne;
-	font-size: 39pt;
+	font-family: AmaticSC;
+	font-size: 50pt;
 	padding: 10px 0;
     margin-bottom: 30px;
     color: #53435b;
@@ -55,8 +72,10 @@ a:hover{
 }
 
 .header{
-	background-color: #53435b;
+	background: url(../img/bg4.jpg) no-repeat center center;
 	padding: 10px 0;
+	background-size: cover;
+	height: 500px;
 }
 
 .menu-top{
@@ -66,8 +85,8 @@ a:hover{
 
 .menu a{
 	color: white;
-	font-family: PoiretOne;
-	font-size: 20pt;
+	font-family: AmaticSC;
+	font-size: 26pt;
 }
 
 .menu a:hover{
@@ -83,7 +102,7 @@ a:hover{
 }
 
 .top{
-	background: url(../img/bg4.jpg) no-repeat center center;
+	
 	background-size: cover;
 	color: #fff;
 	height: 500px;
@@ -97,6 +116,10 @@ a:hover{
 .block1, .block2{
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.block1{
+	background-color: #efefef;
 }
 
 .block2{
@@ -123,16 +146,16 @@ a:hover{
 	background-color: #53435b;
 	padding: 40px 0 60px;
 	color: #fff;
-	font-family: PoiretOne;
+	font-family: AmaticSC;
 }
 
 .footer span{
-	font-size: 16pt;
-    vertical-align: bottom;
+	font-size: 23pt;
 }
 
 .footer img{
 	margin-right: 10px;
+	vertical-align: text-bottom;
 }
 
 .people img{
@@ -158,3 +181,8 @@ a:hover{
 	border: none;
 	box-shadow: none;
 }
+
+#f2e8c9
+
+
+#f2f3f2
