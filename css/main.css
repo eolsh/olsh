@@ -1,0 +1,160 @@
+/*#53435b*/
+
+@font-face{
+	font-family: 'Caveat-bold';
+	src: url('../fonts/Caveat-Bold.ttf');
+}
+
+@font-face{
+	font-family: 'Caveat-regular';
+	src: url('../fonts/Caveat-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Montserrat';
+	src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'PoiretOne';
+	src: url('../fonts/PoiretOne-Regular.ttf');
+}
+
+p, li{
+	font-family: Montserrat;
+	font-size: 14pt;
+}
+
+h3{
+	margin-top: 40px;
+	font-family: Caveat-regular;
+	font-size: 25pt;
+}
+
+h1{
+	border-bottom: 2px solid #53435b;
+	font-family: PoiretOne;
+	font-size: 39pt;
+	padding: 10px 0;
+    margin-bottom: 30px;
+    color: #53435b;
+}
+
+a{
+	color: #f3570a;
+}
+
+a:hover{
+	color: #53435b;
+}
+
+.clearfix{
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.header{
+	background-color: #53435b;
+	padding: 10px 0;
+}
+
+.menu-top{
+	display: inline-block;
+	float: right;
+}
+
+.menu a{
+	color: white;
+	font-family: PoiretOne;
+	font-size: 20pt;
+}
+
+.menu a:hover{
+	color: #f3570a;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.logo img{
+	height: 40px; 
+}
+
+.top{
+	background: url(../img/bg4.jpg) no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	height: 500px;
+	font-family: Caveat-bold;
+}
+
+.title{
+	margin: 0 auto;
+}
+
+.block1, .block2{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.block2{
+	background-color: #e2dee1;
+}
+
+.video{
+	margin: 40px 0;
+}
+
+.festivals{
+	margin: 40px 0;
+}
+
+.foto-full{
+	margin-bottom: 40px;
+}
+
+.foto-full img{
+	width: 100%;
+}
+
+.footer{
+	background-color: #53435b;
+	padding: 40px 0 60px;
+	color: #fff;
+	font-family: PoiretOne;
+}
+
+.footer span{
+	font-size: 16pt;
+    vertical-align: bottom;
+}
+
+.footer img{
+	margin-right: 10px;
+}
+
+.people img{
+	height: 350px;
+	width: 263px;
+	margin-bottom: 20px;
+}
+
+.people h3{
+	margin-top: 0;
+}
+
+.actor{
+	margin: 40px 0;
+}
+
+.media-object.stack-for-small, 
+.media-object-section img {
+	height: 100%; 
+}
+
+.thumbnail{
+	border: none;
+	box-shadow: none;
+}
