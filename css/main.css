@@ -11,6 +11,11 @@
 }
 
 
+@font-face{
+	font-family: 'OldStandart';
+	src: url('../fonts/old-standard-tt-regular.ttf');
+}
+
 
 @font-face{
 	font-family: 'Caveat-regular';
@@ -37,32 +42,51 @@
 	src: url('../fonts/OpenSansCondensed-Bold.ttf');
 }
 
+@font-face{
+	font-family: 'Georgia';
+	src: url('../fonts/georgia.ttf');
+}
+
+
+
 p, li{
-	font-family: Montserrat;
+	font-family: Georgia, serif;
 	font-size: 14pt;
+	color: #2b2b2b;
 }
 
 h3{
 	margin-top: 40px;
-	font-family: Caveat-regular;
-	font-size: 25pt;
+	font-family: OldStandart;
+	font-size: 24pt;
+	text-transform: uppercase;
+	color: #2b2b2b;
 }
 
 h1{
-	border-bottom: 2px solid #53435b;
-	font-family: AmaticSC;
-	font-size: 50pt;
+	border-bottom: 1px solid #53435b;
+	font-family: OldStandart;
+	font-size: 24pt;
 	padding: 10px 0;
     margin-bottom: 30px;
     color: #53435b;
+    text-transform: uppercase;
+}
+
+h4{
+	margin-bottom: 0;
+	font-family: Georgia;
+	font-size: 16pt; 
 }
 
 a{
-	color: #f3570a;
+	color: #53435b;
+	text-transform: uppercase;
+
 }
 
 a:hover{
-	color: #53435b;
+	color: #000;
 }
 
 .clearfix{
@@ -71,26 +95,34 @@ a:hover{
     clear: both;
 }
 
+.grid-container {
+    max-width: 65rem;
+}
+
 .header{
-	background: url(../img/bg4.jpg) no-repeat center center;
+	background: url(../img/bg5.jpg) no-repeat center center;
 	padding: 10px 0;
 	background-size: cover;
 	height: 500px;
 }
 
 .menu-top{
-	display: inline-block;
-	float: right;
+	border-bottom: 1px solid dimgrey;
 }
 
+/*.top-menu{
+	border-bottom: 1px solid dimgrey;
+}
+*/
 .menu a{
 	color: white;
-	font-family: AmaticSC;
-	font-size: 26pt;
+	font-family: Georgia, serif;
+	font-size: 14pt;
+    padding: 15px 30px;
 }
 
 .menu a:hover{
-	color: #f3570a;
+	color: #e2dee1;
 }
 
 .logo{
@@ -119,11 +151,12 @@ a:hover{
 }
 
 .block1{
-	background-color: #efefef;
+	background-color: #e8e8e8;
 }
 
 .block2{
-	background-color: #e2dee1;
+	/*background-color: #e2dee1;*/
+	background-color: #efefef;
 }
 
 .video{
@@ -143,19 +176,32 @@ a:hover{
 }
 
 .footer{
-	background-color: #53435b;
+	background-color: #412f4a;
 	padding: 40px 0 60px;
 	color: #fff;
-	font-family: AmaticSC;
+	font-family: OldStandart;
 }
 
 .footer span{
-	font-size: 23pt;
+	font-size: 17pt;
+	text-transform: uppercase;
 }
 
 .footer img{
 	margin-right: 10px;
 	vertical-align: text-bottom;
+	margin-top: 20px;
+
+}
+
+.icons a{
+	/*float: right;*/
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.icons img{
+	width: 40px;
 }
 
 .people img{
@@ -181,6 +227,9 @@ a:hover{
 	border: none;
 	box-shadow: none;
 }
+
+
+
 
 #f2e8c9
 
